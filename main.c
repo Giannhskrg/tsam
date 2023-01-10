@@ -23,13 +23,13 @@ int main()
  break;
  case 's': findLocation(A,n);
  break;
- //case 'u': findUpHill(A,n);
+ case 'u': findUpHill(A,n);
  break;
- //case 'd': findDownHill(A,n);
+ case 'd': findDownHill(A,n);
  break;
- //case 'h': findAltitude(A,n);
+ case 'h': findAltitude(A,n);
  break;
- //case 't': findTimely(A,n);
+ case 't': findTimely(A,n);
  break;
  }
  scanf(" ");
