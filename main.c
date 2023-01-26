@@ -6,6 +6,7 @@
 #define N 500
 int main()
 {
+
  int n;
  char k,c;
  struct route A[N];
@@ -31,6 +32,9 @@ int main()
  break;
  case 't': findTimely(A,n);
  break;
+ case 'f': n = readFromFile(A);
+ break;
+ //case 'o': saveData(A,n);
  }
  scanf(" ");
  }
